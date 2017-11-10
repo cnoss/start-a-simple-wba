@@ -12,6 +12,10 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 .site-header {
     margin-bottom: var(--space-stack-xl);
     background-color: var(--color-mi-lila);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 99vh;
 }
 
 .site-header__key-visual {
@@ -19,16 +23,29 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
-    max-width: var(--content-width);
-    margin: 0 auto;
+    margin-bottom: var(--space-stack-xl);
 }
 
-.site-header__title .title {
+.site-header__content {
+    flex: 1;
+    text-align: center;
+}
+
+.site-header__content .title {
     color: #fff;
 }
 
-.site-header__title .subtitle {
+.site-header__content .subtitle {
     color: #fff;
+}
+
+.site-header__launch-button {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 
