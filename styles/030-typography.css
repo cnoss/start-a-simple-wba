@@ -8,3 +8,20 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 
 /* Headlines
 ----------------------------------------------------------------------------*/
+
+.title {
+    font-size: var(--fontsize-xxl);
+}
+
+.subtitle {
+    font-size: var(--fontsize-xl);
+}
+
+.title,
+.subtitle {
+    margin-bottom: var(--space-stack);
+}
+
+.title+.subtitle {
+    margin-top: calc(var(--space-stack-s) - var(--space-stack));
+}

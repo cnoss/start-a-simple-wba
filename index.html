@@ -8,9 +8,12 @@
 
     <title>Ein passender Titel für mein super cooles Projekt</title>
 
-    <!-- Normalize and Resets -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-    <link rel="stylesheet" href="lib/styles/main.css">
+    <!-- Fonts -->
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+
+    <!-- Normalize und Milligram Framework -->
+    <link rel="stylesheet" href="//cdn.rawgit.com/necolas/normalize.css/master/normalize.css">
+    <link rel="stylesheet" href="lib/milligram/dist/milligram.css">
 
     <!-- Custom Styles -->
     <link rel="stylesheet" href="styles/010-resets.css">
@@ -22,10 +25,15 @@
 
 <body>
     <header class="site-header">
+
+        <figure class="site-header__key-visual">
+            <img src="images/header-illustration.svg" alt="Web Developers Workspace" width="100">
+        </figure>
         <nav class="site-header__navigation">
         </nav>
-        <section class="section content">
-            <h1 class="title">Ein passender Titel für mein super cooles Projekt.</h1>
+        <section class="site-header__title content">
+            <h1 class="title">WBA1 Challenge Tipps</h1>
+            <h2 class="subtitle">Ein paar Gedanken, Ideen und Tools zum heiteren coden.</h2>
         </section>
     </header>
 

@@ -13,7 +13,12 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
     /* 
     Farben
     ----------------------------------------*/
-    --color-brand: rgb(183, 68, 44);
+    --color-mi-blau: rgb(73, 82, 225);
+    --color-mi-pink: #dd1166;
+    --color-mi-gruen: #00AD2F;
+    --color-mi-lila: #9313ce;
+    --color-mi-black: #231f20;
+    --color-mi-grau: #aaaaaa;
     --color-text: #000;
     --color-headlines: #666;
     --color-borders: rgba(0, 0, 0, 0.3);
@@ -51,7 +56,6 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
     /* 
     Schrift
     ----------------------------------------*/
-    --fontfamily: "Helvetica Neue", Helvetica, sans-serif;
     --fontsize: 1rem;
     --fontsize-s: 0.75rem;
     --fontsize-l: 1.5rem;
@@ -65,9 +69,7 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 
 html,
 body {
-    font-family: var(--fontfamily);
-    font-size: 18px;
-    font-weight: 400;
+    font-size: 14px;
     color: var(--color-text);
 }
 

@@ -10,8 +10,25 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 -----------------------------------------------------------------------------*/
 
 .site-header {
-    border-bottom: solid 1px var(--color-borders);
     margin-bottom: var(--space-stack-xl);
+    background-color: var(--color-mi-lila);
+}
+
+.site-header__key-visual {
+    background-image: url("../images/header-illustration.svg");
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    max-width: var(--content-width);
+    margin: 0 auto;
+}
+
+.site-header__title .title {
+    color: #fff;
+}
+
+.site-header__title .subtitle {
+    color: #fff;
 }
 
 
