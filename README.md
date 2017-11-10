@@ -1,2 +1,2 @@
 # start-a-simple-wba
-Repo con Christian zum Thema WBA Start
+Repo von Christian zum Thema WBA Start
