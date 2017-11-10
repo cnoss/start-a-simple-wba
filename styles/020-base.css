@@ -56,20 +56,19 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
     /* 
     Schrift
     ----------------------------------------*/
-    --fontsize: 1rem;
-    --fontsize-s: 0.75rem;
-    --fontsize-l: 1.5rem;
-    --fontsize-xl: 2rem;
-    --fontsize-xxl: 3rem;
+    --fontsize: 1em;
+    --fontsize-s: 0.75em;
+    --fontsize-l: 1.25em;
+    --fontsize-xl: 1.75em;
+    --fontsize-xxl: 2.5em;
 }
 
 
 /* Basic Styles 
 -----------------------------------------------------------------------------*/
 
-html,
 body {
-    font-size: 14px;
+    font-size: 1.8rem;
     color: var(--color-text);
 }
 

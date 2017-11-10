@@ -11,11 +11,14 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 
 .site-header {
     margin-bottom: var(--space-stack-xl);
+    height: 99vh;
     background-color: var(--color-mi-lila);
+    /* zur Zentrierung des Contents */
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 99vh;
+    /* Damit der Button unten und zentriert sitzt */
+    position: relative;
 }
 
 .site-header__key-visual {
@@ -36,6 +39,7 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 }
 
 .site-header__content .subtitle {
+    font-size: var(--fontsize-l);
     color: #fff;
 }
 
