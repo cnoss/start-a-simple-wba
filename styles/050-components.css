@@ -10,7 +10,7 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 -----------------------------------------------------------------------------*/
 
 .site-header {
-    margin-bottom: var(--space-stack-xl);
+    margin-bottom: var(--space-stack-xxl);
     height: 99vh;
     background-color: var(--color-mi-lila);
     /* zur Zentrierung des Contents */
@@ -44,22 +44,55 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 }
 
 .site-header__launch-button {
-    background-color: transparent;
+    background-color: var(--color-mi-lila);
     border: none;
     position: absolute;
+    padding-bottom: var(--space-stack-xxl);
     bottom: 0;
     left: 0;
     right: 0;
+    width: 100%;
 }
 
 
-/* Navigation
+/* Task List
 -----------------------------------------------------------------------------*/
+
+.task-list__item {
+    display: block;
+    background-color: var(--color-backgrounds);
+    padding: var(--space-inset-xl);
+    border-left: var(--space-inline-xs) solid var(--color-mi-pink);
+}
 
 
 /* Footer
 -----------------------------------------------------------------------------*/
 
 .footer {
-    border-top: solid 1px var(--color-borders);
+    margin-top: var(--space-stack-xxl);
+    padding-top: var(--space-stack-xl);
+    padding-bottom: var(--space-stack-xxl);
+    background-color: var(--color-backgrounds);
+    border-top: solid 1px var(--color-mi-lila);
+}
+
+
+/* Video
+-----------------------------------------------------------------------------*/
+
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }

@@ -22,3 +22,25 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 .section {
     padding-bottom: var(--space-stack-xl);
 }
+
+.section__header {
+    border-top: var(--color-borders) 1px dotted;
+    padding-top: var(--space-stack-xxl);
+}
+
+
+/* Grid
+-----------------------------------------------------------------------------*/
+
+.grid {
+    display: grid;
+    grid-column-gap: var(--space-inset);
+}
+
+.grid-is-3 {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-is-2 {
+    grid-template-columns: 1fr 1fr;
+}

@@ -16,6 +16,25 @@ h4 {
     letter-spacing: normal;
 }
 
+h1 {
+    font-size: var(--fontsize-xxl);
+}
+
+h2 {
+    font-size: var(--fontsize-xl);
+}
+
+h3 {
+    font-size: var(--fontsize-l);
+}
+
+h4,
+h5,
+h6 {
+    font-size: var(--fontsize);
+    font-weight: bold;
+}
+
 
 /* Figure Reset
 -----------------------------------------------------------------------------*/

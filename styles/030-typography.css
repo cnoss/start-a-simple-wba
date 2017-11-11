@@ -21,3 +21,11 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 .title+.subtitle {
     margin-top: calc(var(--space-stack-s) - var(--space-stack));
 }
+
+
+/* Mengentexte
+----------------------------------------------------------------------------*/
+
+.is-big {
+    font-size: 130%;
+}

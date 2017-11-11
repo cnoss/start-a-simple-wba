@@ -17,10 +17,12 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
     --color-mi-pink: #dd1166;
     --color-mi-gruen: #00AD2F;
     --color-mi-lila: #9313ce;
+    --color-mi-lila-light: #C8BBCE;
     --color-mi-black: #231f20;
     --color-mi-grau: #aaaaaa;
     --color-text: #000;
     --color-headlines: #666;
+    --color-backgrounds: #efefef;
     --color-borders: rgba(0, 0, 0, 0.3);
     /* 
     Abstände. Hierzu gibt es auch ein schönes Konzept
@@ -32,6 +34,7 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
     --space-inset: 1rem;
     --space-inset-s: 0.5rem;
     --space-inset-l: 1.5rem;
+    --space-inset-xl: 2rem;
     /* 
     Vertikale Abstände von Stapeln, also
     Elementen, die untereinander angeordnet 
@@ -59,7 +62,7 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
     --fontsize: 1em;
     --fontsize-s: 0.75em;
     --fontsize-l: 1.25em;
-    --fontsize-xl: 1.75em;
+    --fontsize-xl: 1.5em;
     --fontsize-xxl: 2.5em;
 }
 
@@ -72,11 +75,22 @@ body {
     color: var(--color-text);
 }
 
-h1,
-h2,
+h2 {
+    color: var(--color-mi-pink);
+}
+
 h3,
 h4 {
     color: var(--color-headlines);
+}
+
+li,
+a,
+p,
+td,
+th {
+    hyphens: auto;
+    -webkit-hyphens: auto;
 }
 
 
