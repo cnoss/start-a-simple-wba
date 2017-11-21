@@ -96,3 +96,22 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
     width: 100%;
     height: 100%;
 }
+
+
+/* Accordion
+-----------------------------------------------------------------------------*/
+
+.section.js-accordion:hover {
+    cursor: pointer;
+}
+
+.section.js-accordion .section__content {
+    max-height: 0;
+    transition: all 1s;
+    overflow: hidden;
+}
+
+.section.js-accordion.active .section__content {
+    max-height: 2000px;
+    height: auto;
+}
