@@ -115,3 +115,30 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
     max-height: 2000px;
     height: auto;
 }
+
+
+/* Showcase
+-----------------------------------------------------------------------------*/
+
+.showcase__item {
+    padding: var(--space-inset-l) !important;
+    background-color: rgba(147, 19, 2, 0.5);
+    border-left: solid 1px rgba(255, 255, 255, 0.5);
+    display: flex;
+    flex-direction: column;
+}
+
+.showcase__item h3 {
+    align-self: flex-end;
+    margin-bottom: var(--space-stack-xxl);
+}
+
+.showcase__item p {
+    align-self: flex-end;
+    margin-bottom: var(--space-stack-s);
+}
+
+.showcase__item a,
+.showcase__item p {
+    color: #fff;
+}
