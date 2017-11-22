@@ -25,6 +25,12 @@
     <!-- Icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
+    <!-- Toolbox :) -->
+    <!--
+        linear-gradient(to right, rgba(0,0,0, 0.8), rgba(255, 255, 255, 0))
+
+    -->
+
 </head>
 
 <body>
@@ -138,7 +144,20 @@
                 <h2><i class="material-icons md-24 ">web</i> Nutzung von Frameworks, Icons und anderen Ressourcen.</h2>
             </header>
 
-            <div class="showcase">
+            <p>Im Rahmen der Challenge ist im Grunde so gut wie alles erlaubt, was Ihnen hilft das Projekt so gut und professionel wie möglich zu realisieren. Nutzen Sie Frameworks, Iconsets und Tools. Aber Sie müssen auf Ihrer Dokumentations Seite darauf
+                hinweisen, welche Tools und Codesnippets Sie verwendet haben. Hier eine kleine Übersicht über mögliche Helferleins.</p>
+        </section>
+
+
+        <section class="section content clearfix">
+            <ul id="viewmodeSwitcher" class="button-group float-right">
+                <li class="button-group__item is-active"><i class="material-icons md-48 " data-element="#helferleins" data-viewmode="blockmode">view_module</i></li>
+                <li class="button-group__item"><i class="material-icons md-48 " data-element="#helferleins" data-viewmode="rowmode">view_stream</i></li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <div class="showcase" id="helferleins">
                 <div class="showcase__item">
                     <h3><a href="https://getbootstrap.com/">Twitter Bootstrap</a></h3>
                     <p>Eines der meinst genutzten CSS Frameworks.</p>
@@ -150,14 +169,41 @@
                 </div>
 
                 <div class="showcase__item">
-                    <h3><a href="https://milligram.io/">Milligram</a></h3>
-                    <p>Ein minimalistisches CSS Framework, das von dieser Seite genutzt wird.</p>
+                    <h3><a href="http://materializecss.com/">Materialize</a></h3>
+                    <p>Ein responsives Front-End-Framework basierend auf Material Design</p>
+                </div>
+
+                <div class="showcase__item">
+                    <h3><a href="https://foundation.zurb.com/">Foundation</a></h3>
+                    <p>Sehr mächtiges und umfangreiches Front-End Framework.</p>
                 </div>
 
                 <div class="showcase__item">
                     <h3><a href="https://material.io/icons/">Material Icons</a></h3>
                     <p>Iconset aus der Google Material Design Linie.</p>
                 </div>
+
+                <div class="showcase__item">
+                    <h3><a href="http://fontawesome.io/icons/">Font Awesome</a></h3>
+                    <p>Sehr umfangreiches Iconset mit über 600 Icons.</p>
+                </div>
+
+                <div class="showcase__item">
+                    <h3><a href="https://useiconic.com/open/">Open Iconic</a></h3>
+                    <p>Open Source Iconset mit über 200 Icons.</p>
+                </div>
+
+                <div class="showcase__item">
+                    <h3><a href="https://vuejs.org/">Vue.js</a></h3>
+                    <p>Sehr schönes JavaScript-Webframework zum Erstellen von Single-Page-Webanwendungen.</p>
+                </div>
+
+                <div class="showcase__item">
+                    <h3><a href="https://jquery.com/">jQuery</a></h3>
+                    <p>Sehr beliebtes Javascript Framework, das gerade nicht mehr so en vouge ist.</p>
+                </div>
+
+
             </div>
         </section>
 
@@ -170,6 +216,9 @@
         <section class="section content">
             <header class="section__header">
                 <h2><i class="material-icons md-24 ">mode_edit</i> Was wird erwartet?</h2>
+                <ul>
+                    <li>Wie robust muss der Code sein?</li>
+                </ul>
             </header>
         </section>
     </main>
@@ -189,5 +238,6 @@
 <script src="scripts/eyecandy-scrolling.js"></script>
 <script src="scripts/eyecandy-showcase.js"></script>
 <script src="scripts/accordion.js"></script>
+<script src="scripts/viewmode-showcase.js"></script>
 
 </html>
