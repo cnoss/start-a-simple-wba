@@ -163,6 +163,8 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
     border-top: solid 1px rgba(255, 255, 255, 0.5);
     border-left: solid 1px rgba(255, 255, 255, 0.5);
     min-height: 20rem;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .showcase__item h3 {
